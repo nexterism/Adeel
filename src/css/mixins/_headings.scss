@@ -1,0 +1,20 @@
+@mixin headings($size){
+    @if($size == 'sm') {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
+    @else if($size == 'lg') {
+        font-size: 4.2rem;
+       
+        font-weight: bolder;
+        line-height: 110%;
+        margin: 2.1rem 0 1.68rem 0;
+        font-family: $fonts;
+    }
+    @else{
+        font-size: 70px;
+        margin-bottom: 50px;
+        font-weight: bolder;
+    }
+}

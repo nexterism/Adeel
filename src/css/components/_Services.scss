@@ -1,0 +1,62 @@
+// .services{
+//     .services-title{
+//         @extend %section-title;
+//     }
+//     .services-group{
+//         @extend %section-group;
+//         .services-item{
+//             display: inline-block;
+//             width: 31%;
+//             margin: 0px 1%;
+//             cursor: pointer;
+//             .icon-round{
+//                 @include circle('icon-circle');
+//             }
+//             .services-name{
+//                 text-align: center;
+//                 h2{
+//                     color: $main-color;
+//                 }
+//             }
+//             &:hover{
+//                 .icon-round{
+//                     background-color: $second-color;
+//                     border: 2px solid #{$main-color};
+//                     i{
+//                         color: $main-color;
+//                         transform: rotate(360deg);
+//                     }
+//                 }
+//             }
+//         }
+    //     }
+// }
+.material-icons{
+    font-size: 40px;
+}
+.service-div{
+    width: 373px;
+    height: 212px;
+}
+.icon-color{
+    color: $third-color;
+ }
+// .row{
+//     padding: 100px 0;
+// }
+
+.section-service .service-div{
+	padding: 30px;
+}
+
+.section-service .service-div i{
+	border:none;
+	padding: 0 
+}
+
+.section-service .service-div p{
+    font-size: 12px;
+    
+    padding-bottom: 10px;
+}
+   

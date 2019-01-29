@@ -1,0 +1,32 @@
+@mixin hero($name:btn){
+    
+        background-image: url("../images/people-2595657_1920.jpg" );
+        filter: grayscale(0.4);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .hero-title{
+            
+            @include headings('lg');
+            
+        }
+        
+        @if($name == 'text'){
+        p{
+            text-align: center;
+            width: 500px;
+            color: $second-color;
+        }
+    }
+    @else{
+       .btn-hero{
+           
+           @include btn ('lg');
+       }
+    }
+}

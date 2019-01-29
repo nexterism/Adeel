@@ -1,0 +1,36 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+// Variables
+@import './variables/allvariables';
+
+// Mixin
+@import './mixins/headings';
+@import './mixins/buttons';
+@import './mixins/hero';
+
+
+// Extends
+@import './extends/allextends';
+
+// Components
+@import './components/Navabr';
+@import './components/Hero';
+
+@import './components/Perfumes';
+@import './components/Testimonials';
+@import './components/Services';
+@import './components/Team';
+@import './components/Contact';
+@import './components/Footer';
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: $fonts;
+}
+.section{
+  height: 95vh;
+  padding-top: 50px;
+}
